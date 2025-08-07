@@ -1,94 +1,51 @@
-Build your own smart home security system that sends SMS alerts whenever motion is detected. This beginner-friendly project is practical, low-cost, and powered by an Arduino + SIM800L module.
+# 🚨 DIY SMS SECURITY SYSTEM — ARDUINO + SIM800L
 
-    ✅ No cloud.
-    ✅ No monthly fees.
-    ✅ Full control.
-    ✅ Works even when Wi-Fi is down.
-![1](https://github.com/user-attachments/assets/637fcb80-7d8e-45af-8c53-82563bd0917b)
+> 🔧 Build a motion-triggered alarm that sends **SMS alerts** straight to your phone.  
+> 🧠 No cloud, no Wi-Fi — just a simple and effective offline security system.
 
-DIY SMS Security System
-🚀 Features
+---
 
-    📱 SMS Notifications when motion is detected
+![SMS Security System](https://github.com/user-attachments/assets/637fcb80-7d8e-45af-8c53-82563bd0917b)
 
-    👀 PIR Motion Sensor detection
+---
 
-    🔐 Easy to disarm/arm with a button
+## 📥 GET THE FULL GUIDE
 
-    💾 EEPROM support to remember state after power loss
+📗 **Step-by-step instructions, wiring diagrams, code, and setup tips**  
+👉 [**Click here to download it on Gumroad**]([https://your-gumroad-link.com](https://xyvielyons.gumroad.com/l/smartmotiondetectoralarmsystem)) *(Free or pay what you want)*
 
-    🧠 Beginner-friendly Arduino code
+---
 
-🧰 What You Need
+## 🔧 WHAT YOU’LL BUILD
 
-    Arduino Uno (or compatible board)
+A home security system that:
+- Detects motion using a PIR sensor
+- Sends **instant SMS alerts** using SIM800L GSM module
+- Can be **armed/disarmed** using a pushbutton
+- Remembers its armed state (uses EEPROM)
+- Works offline — even when Wi-Fi or power goes out
 
-    SIM800L GSM module
+---
 
-    PIR motion sensor
+## 🧰 WHAT YOU NEED
 
-    Buzzer or LED (optional)
+- ✅ Arduino Uno or Nano
+- ✅ SIM800L GSM module
+- ✅ PIR motion sensor
+- ✅ Pushbutton + 10kΩ resistor
+- ✅ SIM card (SMS-enabled)
+- ✅ Jumper wires + breadboard
+- ✅ Power supply (3.7–4.2V for SIM800L)
 
-    Pushbutton
+---
 
-    10kΩ resistor
+## 📸 HOW IT WORKS
 
-    Breadboard + jumper wires
+1. **Motion detected** by PIR sensor  
+2. Arduino triggers **SMS alert** via SIM800L  
+3. You receive a message like:  
+   _“Alert! Motion detected at home!”_  
+4. Optional: Add buzzer, LED, or relay for sirens/lights
 
-    SIM card (SMS enabled, no data required)
+---
 
-    Power supply (5V for Arduino, 4V–4.2V for SIM800L)
-
-📥 Get the Full Build Guide
-
-Want the full step-by-step tutorial with wiring diagrams and sample code?
-
-👉 Download the guide here on Gumroad
-https://xyvielyons.gumroad.com/l/smartmotiondetectoralarmsystem
-
-(It’s free — or pay what you want to support more builds!)
-📸 How It Works
-
-    Motion is detected by the PIR sensor.
-
-    Arduino sends an SMS alert via SIM800L.
-
-    You receive the message on your phone in seconds.
-
-    A physical button toggles system arming.
-
-No internet. No apps. Just reliable SMS security.
-🧠 Why This Project?
-
-This is perfect if you're:
-
-    A beginner learning Arduino + GSM modules
-
-    Building offline IoT projects
-
-    Looking for a low-power remote alert system
-
-🛠️ Code
-
-The full Arduino code is available in the /code directory. Just open it in the Arduino IDE, install the SoftwareSerial library (built-in), and you're ready.
-
-🔒 Disclaimers
-
-    SMS charges may apply (check with your carrier).
-
-    Ensure your SIM800L module is powered with stable voltage (3.7V–4.2V max).
-
-    This is a hobby project — do not rely on it for critical applications.
-
-❤️ Support
-
-If this helped you, consider:
-
-    ⭐ Starring the repo
-
-    🛒 Downloading the full guide
-
-    ☕ Buying me on gumroad when purchasing if you would like to support me
-    https://xyvielyons.gumroad.com/l/smartmotiondetectoralarmsystem
-
-Built with love by makerunlocked
