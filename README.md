@@ -13,6 +13,7 @@
 
 📗 **Step-by-step instructions, wiring diagrams, code, and setup tips**  
 👉 [**Click here to download it on Gumroad**]([https://your-gumroad-link.com](https://xyvielyons.gumroad.com/l/smartmotiondetectoralarmsystem)) *(Free or pay what you want)*
+https://xyvielyons.gumroad.com/l/smartmotiondetectoralarmsystem
 
 ---
 
